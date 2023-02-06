@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/blog.js" defer></script><!--defer-->
+    <script src="js/blog.js" defer></script>
     <title>Add Post</title>
 </head>
 <body>
@@ -21,9 +21,8 @@
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="education.html">Education</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="addPost.html">Blog</a></li>
                     <li><a href="extra-curricular.html">Extra-Curricular</a></li>
-                    <li><a href="blog.html">Sample Blog</a></li>
+                    <li><a href="viewBlog.php">Blog</a></li>
                 </ul>
             </nav>
         </hgroup>
@@ -33,7 +32,7 @@
             <h1>Add Post</h1>
             <hr/>
             <br/><br/>
-            <form method="GET" action="addPost.php">
+            <form method="POST" action="addPost.php">
                 <fieldset>
                     <input type="text" name="title" placeholder="Title" style="border-color: red;">
                     <br/><br/>

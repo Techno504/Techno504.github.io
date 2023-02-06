@@ -60,11 +60,6 @@ div section
     border-radius: 2em;
 }
 
-/* button
-{
-
-} */
-
 #login-button:hover p, #login-button2:hover
 {
     color:darkslategray;
@@ -82,6 +77,16 @@ p
 }
 
 .box
+{
+    float: left;
+    width: 50%;
+    height: 10em;
+    box-sizing: border-box;
+    text-align:center;
+    padding: 3% 2% 0% 0%;
+}
+
+.blogBox
 {
     float: left;
     width: 50%;
@@ -279,6 +284,26 @@ footer
 
 .blog
 {
-    border-radius: 5%;
-    background-color: steelblue;
+    border: none;
+    background-color: slategrey;
+}
+
+#blogDate, #blogBy
+{
+    float:right;
+}
+
+#blogTitle, #blogContent
+{
+    float: left;
+}
+
+.warning
+{
+    color:red;
+}
+
+#welcome
+{
+    color:rebeccapurple;
 }
