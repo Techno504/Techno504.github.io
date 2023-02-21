@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Add Post</title>
+    <title>Login</title>
 </head>
 <body>
     <header>
@@ -29,17 +29,16 @@
     </header>
     <div>
         <section>
-            <h1>Add Post</h1>
+            <h1>Login</h1>
             <hr/>
             <br/><br/>
-            <form method="GET" action="addPost.php">
+            <form method="GET" action="login.php">
                 <fieldset>
-                    <input type="text" name="title" placeholder="Title">
+                    <input type="email" name="email" placeholder="Email Address">
                     <br/><br/>
-                    <textarea name="content" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                    <input type="password" name="password" placeholder="Password">
                     <br/><br/>
-                    <button type="submit" class="button login-button2" id="post">Post</button>
-                    <button type="reset" class="button login-button2">Clear</button>
+                    <button type="submit" class="button login-button2">Login</button>
                 </fieldset>
             </form>
         </section>
